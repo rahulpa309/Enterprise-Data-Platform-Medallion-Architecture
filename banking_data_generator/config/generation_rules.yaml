@@ -1,0 +1,71 @@
+# ==========================================================
+# Enterprise Banking Data Generation Rules
+# ==========================================================
+
+master_data:
+
+  branches: 25
+
+  employees: 500
+
+customer:
+
+  initial_customers: 10000
+
+  daily_new_customers: 50
+
+  daily_customer_updates: 20
+
+accounts:
+
+  min_accounts_per_customer: 1
+
+  max_accounts_per_customer: 3
+
+  savings_account_percentage: 70
+
+  current_account_percentage: 20
+
+  salary_account_percentage: 10
+
+loans:
+
+  eligible_customer_percentage: 25
+
+  home_loan_percentage: 40
+
+  personal_loan_percentage: 35
+
+  vehicle_loan_percentage: 25
+
+credit_cards:
+
+  eligible_customer_percentage: 35
+
+  cards_per_customer: 1
+
+transactions:
+
+  min_transactions_per_account_per_day: 2
+
+  max_transactions_per_account_per_day: 20
+
+  atm_percentage: 20
+
+  upi_percentage: 35
+
+  net_banking_percentage: 20
+
+  debit_card_percentage: 15
+
+  credit_card_percentage: 10
+
+fraud:
+
+  fraud_percentage: 0.2
+
+beneficiary:
+
+  min_beneficiaries: 1
+
+  max_beneficiaries: 5

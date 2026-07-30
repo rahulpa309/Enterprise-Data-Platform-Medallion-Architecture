@@ -1,0 +1,28 @@
+# ==========================================================
+# Enterprise Banking Data Generator Configuration
+# ==========================================================
+
+project:
+  name: Enterprise Banking Data Platform
+  environment: DEV
+  version: 1.0.0
+
+generation:
+
+  start_date: "2026-01-01"
+
+  simulation_days: 30
+
+  # config["generation"]["simulation_days"]
+
+  random_seed: 12345
+
+  output_directory: "../output"
+
+logging:
+
+  log_directory: "../logs"
+
+  log_level: INFO
+
+  log_file: generator.log
